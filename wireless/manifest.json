@@ -1,0 +1,6 @@
+{
+  "name": "Wireless",
+  "version": "0.0.1",
+  "description": "Wireless rednet tools",
+  "entry": "main.lua"
+}
