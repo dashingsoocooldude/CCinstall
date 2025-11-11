@@ -1,7 +1,7 @@
 {
   "name": "WIRELESS",
   "version": "1.0.0",
-  "description": "A simple test framework for CC Tweaked",
+  "description": "A simple test framework",
   "entry": "main.lua",
-  "installDir": "wireless"
+  "installDir": ""
 }
