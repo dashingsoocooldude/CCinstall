@@ -1,6 +1,6 @@
 {
   "name": "GUI",
   "version": "1.0.0",
-  "description": "Wireless rednet tools",
+  "description": "",
   "entry": "main.lua"
 }
