@@ -1,7 +1,7 @@
 {
   "name": "GUI",
   "version": "1.0.0",
-  "description": "A simple GUI framework for CC Tweaked",
+  "description": "A simple GUI framework",
   "entry": "main.lua",
-  "installDir": "wireless"
+  "installDir": ""
 }
