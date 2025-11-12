@@ -2,12 +2,13 @@
   "name": "WIRELESS",
   "version": "0.0.1",
   "description": "A simple test framework",
-  "installDir": "",
+  "installDir": "wireless-tools",
   "modules": [
     {
       "name": "Sender",
       "path": "sender/main.lua",
-      "description": "Transmits data over Rednet"
+      "description": "Transmits data over Rednet",
+      "installDir": "wireless-sender"
     },
     {
       "name": "Reciever",
