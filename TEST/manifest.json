@@ -1,0 +1,7 @@
+{
+  "name": "TEST",
+  "version": "0.0.1",
+  "description": "A simple framework",
+  "entry": "startup.lua",
+  "installDir": ""
+}
