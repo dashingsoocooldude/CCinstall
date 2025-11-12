@@ -13,5 +13,6 @@
       "name": "Reciever",
       "path": "reciever/main.lua",
       "description": "Receives and displays rednet transmissions"
+    }
   ]
 }
