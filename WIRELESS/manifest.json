@@ -2,6 +2,16 @@
   "name": "WIRELESS",
   "version": "0.0.1",
   "description": "A simple test framework",
-  "entry": "main.lua",
-  "installDir": ""
+  "installDir": "",
+  "modules": [
+    {
+      "name": "Sender",
+      "path": "sender/main.lua",
+      "description": "Transmits data over Rednet"
+    },
+    {
+      "name": "Reciever",
+      "path": "reciever/main.lua",
+      "description": "Receives and displays rednet transmissions"
+  ]
 }
