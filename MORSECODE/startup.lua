@@ -1,6 +1,6 @@
 MorseCodeConverter = {}
 MorseCodeConverter.__index = MorseCodeConverter
-– Define a table to store the mapping of characters to Morse code.
+--Define a table to store the mapping of characters to Morse code.
 local morseCodeTable = {
     [“A”] = “.-“,
     [“B”] = “-…”,
@@ -40,9 +40,9 @@ local morseCodeTable = {
     [“9”] = “----.”,
     [” “] = ” “
 }
-– This function converts a given text to Morse code.
-– @param text: The text to be converted.
-– @return: Returns the Morse code representation of the text.
+-- This function converts a given text to Morse code.
+-- @param text: The text to be converted.
+-- @return: Returns the Morse code representation of the text.
 function MorseCodeConverter.convertToMorseCode(text)
     local morseCode = “”
     for i = 1, #text do
@@ -54,8 +54,8 @@ function MorseCodeConverter.convertToMorseCode(text)
     end
     return morseCode
 end
-– Example usage of the MorseCodeConverter class
-– Usage Example: Convert a text to Morse code
+-- Example usage of the MorseCodeConverter class
+-- Usage Example: Convert a text to Morse code
 local text = “HELLO WORLD”
 local morseCode = MorseCodeConverter.convertToMorseCode(text)
 print(“Morse code for "” .. text .. “":”)
